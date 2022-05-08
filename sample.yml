@@ -1,0 +1,14 @@
+---
+
+- hosts: servers
+
+  tasks:
+    - name: Get pleasanter's table information
+      pst_get:
+        host_name: "{{ host_name }}"
+        item_id: "{{ item_id }}"
+        api_key: "{{ api_key }}"
+      register: result
+
+    - debug:
+       var: result

@@ -1,0 +1,10 @@
+[servers]
+192.168.1.100
+
+[servers:vars]
+ansible_ssh_user=ansible
+ansible_ssh_pass=**********
+ansible_python_interpreter=/usr/bin/python3
+host_name=192.168.1.100:80
+item_id=12345
+api_key=*********************************************************************************
