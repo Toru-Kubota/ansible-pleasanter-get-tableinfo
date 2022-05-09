@@ -10,14 +10,14 @@ pip install requests
 The ansible server and ansible client must be Linux servers.
 We have confirmed the operation in the following environment.
 
-* ansible server
-Linux:Amazon Linux release 2
-ansible:2.11.11
-python:3.7.10
+### ansible server
+* Linux:Amazon Linux release 2
+* ansible:2.11.11
+* python:3.7.10
 
-* ansible client
-Linux:AlmaLinux release 8.5
-python:Python 3.6.8
+### pleasanter server
+* Linux:AlmaLinux release 8.5
+* python:Python 3.6.8
 
 ## Get started
 Please set the following parameters.
