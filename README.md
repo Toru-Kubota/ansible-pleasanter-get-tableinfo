@@ -36,7 +36,7 @@ request URL will be http://192.168.1.1:8080/api/items/1234/export
 
 execute the ansible-playbook command.
 ```sh
-ansible-playvook -i inventory sample.yml
+ansible-playbook -i inventory sample.yml
 ```
 
 ## Example
@@ -73,5 +73,5 @@ api_key=************************************************************************
 
 ### ansible-playbook command
 ```sh
-ansible-playvook -i inventory sample.yml
+ansible-playbook -i inventory sample.yml
 ```
